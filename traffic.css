@@ -1,0 +1,47 @@
+*{
+padding:0;
+margin: 0;
+}
+#greenlight {
+    position: absolute;
+    top: 42vh;
+    left: 53vw;
+    height: 37vh;
+  }
+  
+  #redlight{
+    position: absolute;
+    top: 42vh;
+    left: 55vw;
+    height: 37vh;
+  }
+  #car {
+    position: absolute;
+    top: 54vh;
+    left: 1vw;
+    height: 45vh;
+  }
+  body {
+    background: rgb(100, 97, 97);
+  }
+  .track {
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 20vh;
+    animation: trackanimation 6s linear infinite;
+  }
+  .road {
+    padding-top: 180px;
+   width: 100vw;
+  }
+  @keyframes trackanimation {
+    0% {
+      background-position: 0;
+    }
+    100% {
+      background-position: 100vw;
+    }
+  }
+  
